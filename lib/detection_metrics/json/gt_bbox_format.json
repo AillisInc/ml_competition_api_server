@@ -1,0 +1,44 @@
+[
+  {
+    "file": "0001",
+    "height": 400,
+    "width": 400,
+    "bboxes": [
+      {
+        "class": "person",
+        "xmin": 100,
+        "ymin": 100,
+        "xmax": 200,
+        "ymax": 200
+      },
+      {
+        "class": "dog",
+        "xmin": 120,
+        "ymin": 120,
+        "xmax": 220,
+        "ymax": 220
+      }
+    ]
+  },
+  {
+    "file": "0002",
+    "height": 300,
+    "width": 300,
+    "bboxes": [
+      {
+        "class": "cat",
+        "xmin": 100,
+        "ymin": 100,
+        "xmax": 200,
+        "ymax": 200
+      },
+      {
+        "class": "flower",
+        "xmin": 120,
+        "ymin": 120,
+        "xmax": 220,
+        "ymax": 220
+      }
+    ]
+  }
+]

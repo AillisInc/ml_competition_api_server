@@ -16,10 +16,15 @@ cp .env.sample .env # Edit .env file according to your favorable environment
 vim .env
 ```
 
-Copy the following text to .env file.
+Copy the following text to .env file. (In production environment, a strong key is recommended)
 ```bash
 API_KEY_TOKEN=secret_key
 ```
+
+#### About `API_KEY_TOKEN`
+- `API_KEY_TOKEN` is used for authorization for API client. 
+- Therefore, in production environment, `API_KEY_TOKEN` value that cannot be easily guessed is recommended.
+- When client calls API, correct `API_KEY_TOKEN` value should be specified as header value of `X-Authorization-Key`([sample code](https://github.com/AillisInc/ml_competition_platform/blob/939ecd14fe010ad4602b8ffa07764febe9214ea7/app/services/metrics_service.rb#L10))
 
 ### Start server
 start server with following command

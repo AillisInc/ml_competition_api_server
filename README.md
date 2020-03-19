@@ -3,9 +3,7 @@
 - This code is written in Python and Flask web framework.
 
 ## Overall Architecture
-- English version is still work in progress.
-
-<img src="https://img.esa.io/uploads/production/attachments/9766/2020/03/15/40878/b172e725-c9e1-497d-9d20-d3184f2a94a2.jpg"  alt="imaeg" width="1000"/>
+<img src="https://user-images.githubusercontent.com/12205695/77036731-1e078480-69f3-11ea-8102-bba82f9c0654.jpg"  alt="imaeg" width="1000"/>
 
 ## How to setup development environment
 

@@ -8,7 +8,7 @@ verify_ssl = true
 [packages]
 gunicorn = "==19.9.0"
 Flask = "==1.1.1"
-Werkzeug = "==0.15.4"
+Werkzeug = "==0.15.5"
 sklearn = "*"
 numpy = "*"
 opencv-python = "*"
